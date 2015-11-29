@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/sky/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/sky/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/sky/.emacs.d/" (22106 41839 0 0) "elpa/" "color-theme-6.6.0/" "auto-save-list/" "../" "./")
+
+ ("/Users/sky/" (22106 42432 0 0) "未命名.txt" "VirtualBox VMs/" "Public/" "Pictures/" "Music/" "Movies/" "main_flymake.cpp" "main.cpp~" "main.cpp" "main" "Library/" "Downloads/" "Documents/" "Desktop/" "auto-complete-clang.el" "Applications/" ".Xauthority" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".srecode/" ".semanticdb/" ".rnd" ".p2/" ".lesshst" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".eclipse/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
