@@ -6,6 +6,7 @@
 
 ;;80 列
 (setq default-fill-column 80)
+;;(speedbar 1)
 ;;关闭滚动条
 (set-scroll-bar-mode nil) 
 (tool-bar-mode -1) 
@@ -16,7 +17,10 @@
 (setq make-backup-files nil);关闭自动备份功能
 (setq auto-save-default nil);不生成名为#filename# 的临时文件
 (setq inhibit-startup-message t)
-(setq visible-bell t) 
+(setq visible-bell t)
+(setq user-full-name "Sky Wang")
+(setq user-mail-address "sky.wang@ucla.edu")
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;修改快捷键
 (global-set-key( kbd "C-z") 'undo)
@@ -26,10 +30,24 @@
 (global-set-key [M-up] 'windmove-up)
 (global-set-key [M-down] 'windmove-down)
 (global-set-key (kbd "M-g") 'goto-line)
-(global-set-key [f7] 'find-tag-other-window)
-(global-set-key [f8] 'find-tag)
-(global-set-key (kbd "C-f") 'grep-find)
-
+;(global-set-key [f7] 'find-tag-other-window)
+(global-set-key [f9] 'find-tag)
+(global-set-key [f5] 'grep-find)
+(global-set-key (kbd "C-f") 'isearch-forward)
+(global-set-key (kbd "C-s") 'next-line)
+(global-set-key (kbd "C-w") 'previous-line)
+(global-set-key (kbd "C-d") 'move-end-of-line)
+(global-set-key (kbd "M-d") 'forward-word)
+(global-set-key (kbd "M-a") 'backward-word)
+(global-set-key (kbd "M-w") 'scroll-down-command)
+(global-set-key (kbd "M-s") 'scroll-up-command)
+(global-set-key (kbd "C-a") 'move-beginning-of-line)
+(global-set-key (kbd "C-w") 'previous-line)
+(global-set-key (kbd "C-d") 'move-end-of-line)
+(global-set-key [f2] 'next-buffer)
+(global-set-key [f3] 'previous-buffer)
+(global-set-key (kbd "M-v") 'yank)
+(global-set-key (kbd "M-c") 'kill-ring-save)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
